@@ -5,3 +5,5 @@ evadb_data
 __pycache__
 youtube_video_qa
 checkKey.py
+calculator
+parser

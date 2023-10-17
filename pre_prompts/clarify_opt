@@ -1,0 +1,5 @@
+Given the project description, determine if any clarifications are needed or not. 
+Do not write any code.
+Your expected response format is one of these two: 
+1. A single clarification question, without any comments.
+2. "Nothing to clarify"

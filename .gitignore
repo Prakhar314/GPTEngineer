@@ -1,0 +1,7 @@
+evadb-venv
+.env
+evadb_data
+.vscode
+__pycache__
+youtube_video_qa
+checkKey.py

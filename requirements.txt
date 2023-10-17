@@ -1,0 +1,4 @@
+evadb
+python-dotenv
+pylint
+# eva-decord

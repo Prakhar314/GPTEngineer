@@ -83,8 +83,8 @@ class TunedGPT(AbstractFunction):
     @setup(cacheable=True, function_type="chat-completion", batchable=True)
     def setup(
         self,
-        model="gpt-3.5-turbo-0301",
-        temperature: float = 0.7,
+        model="gpt-4",
+        temperature: float = 0.1,
     ) -> None:
         assert model in _VALID_CHAT_COMPLETION_MODEL, f"Unsupported TunedGPT {model}"
         self.model = model
@@ -154,7 +154,7 @@ class TunedGPT(AbstractFunction):
                 "role": "system",
                 "content": prompt
                 if prompt is not None
-                else "You are a software engineer.",
+                else "Act like a software engineer.",
             }
 
             params["messages"].append(def_sys_prompt_message)
@@ -162,7 +162,7 @@ class TunedGPT(AbstractFunction):
                 [
                     {
                         "role": "user",
-                        "content": f"Here is some context: {content}",
+                        "content": f"Project context: {content}",
                     },
                     {
                         "role": "user",

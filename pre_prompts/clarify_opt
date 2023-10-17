@@ -1,5 +1,10 @@
-Given the project description, determine if any clarifications are needed or not. 
+Given the project description, determine if any clarifications are needed or not. You should clarify anything you are assuming.
 Do not write any code.
 Your expected response format is one of these two: 
 1. A single clarification question, without any comments.
 2. "Nothing to clarify"
+
+
+Examples of single clarification questions:
+"What are the input secifications?"
+"What kinds of operations should be supported?"

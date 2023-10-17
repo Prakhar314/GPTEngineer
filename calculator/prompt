@@ -1,1 +1,3 @@
-Make a calculator in C++
+Make a calculator in python.
+Inputs will be a string.
+Addition, multiplication, subtraction and division should be supported.

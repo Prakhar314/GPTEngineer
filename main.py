@@ -259,7 +259,7 @@ class EngineerState:
 def gpt_engineer(project_dir:str, reset:bool=False) -> None:
     load_dotenv()
 
-    engineer = EngineerState(reset=False)
+    engineer = EngineerState(reset=reset)
 
     if not os.path.exists(project_dir):
         raise Exception(f"Project directory {project_dir} does not exist.")
@@ -298,4 +298,4 @@ def gpt_engineer(project_dir:str, reset:bool=False) -> None:
 
 if __name__ == "__main__":
     project_dir = colored_input("Enter project directory: ")
-    gpt_engineer(project_dir)
+    gpt_engineer(project_dir, reset=True)

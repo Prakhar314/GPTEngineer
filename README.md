@@ -28,3 +28,8 @@ Print the included demo:
 ```
 cat example_session.txt
 ```
+
+<!-- Add image -->
+![Demo 1](calculator/demo_1.png)
+<br/>
+![Demo 2](calculator/demo_2.png)

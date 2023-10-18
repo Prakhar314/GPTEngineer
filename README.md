@@ -16,7 +16,7 @@ Create an empty sub-directory with a file `prompt`.
 Example:
 ```
 mkdir calculator
-echo "Make a calculator in python. Inputs will be a string. Addition, multiplication, subtraction and division should be supported." >> prompt
+echo "Make a calculator in python. Inputs will be a string. Addition, multiplication, subtraction and division should be supported." > calculator/prompt
 ```
 Run the script
 ```
